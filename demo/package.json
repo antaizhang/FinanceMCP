@@ -1,0 +1,27 @@
+{
+  "name": "finance-mcp-demos",
+  "version": "1.0.0",
+  "description": "FinanceMCP 新闻获取方法示例",
+  "type": "module",
+  "scripts": {
+    "demo1": "tsx 1-tushare-hot-news.ts",
+    "demo2": "tsx 2-baidu-news-search.ts",
+    "demo3": "tsx 3-finance-news-complete.ts",
+    "all": "npm run demo1 && npm run demo2 && npm run demo3"
+  },
+  "keywords": [
+    "finance",
+    "news",
+    "mcp",
+    "tushare",
+    "baidu"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
